@@ -10,3 +10,27 @@ The model is trained to classify movie reviews (positive, negative, neutral), sh
   - Efficient training with <1% trainable parameters
   - Training implemented in Google Colab for reproducibility
   - Supports inference with Hugging Face Transformers
+
+📊 Dataset
+
+  - Example dataset: IMDB Movie Reviews / Custom-labeled sentences
+  - 3 classes: Positive, Negative, Neutral
+  - You can swap in your own dataset for other sentiment tasks.
+
+📈 Results
+
+  - Trainable Params: ~0.5% of total (PEFT efficiency)
+  - Achieved good classification accuracy on test set with lightweight fine-tuning.
+  - Example predictions:
+    - The movie was fantastic!" → Positive
+    - "I regret watching this." → Negative
+    - "It was okay, nothing special." → Neutral
+
+🔮 Future Work
+
+  - Experiment with other adapters (Prefix Tuning, P-Tuning v2)
+  - Try larger datasets for domain generalization
+  - Deploy as a REST API / Hugging Face Space for live demos
+
+📜 License
+  - MIT License
