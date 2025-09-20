@@ -1,4 +1,4 @@
-```NOTE: This code has been executed on Google Colab. And suggesting an individual to try on colab with runtine T4.```
+```NOTE: This code has been executed on Google Colab. And suggesting an individual to try on colab with runtime T4.```
 
 📌 Project Overview
 This project fine-tunes a Large Language Model (LLM) using Parameter-Efficient Fine-Tuning (PEFT) with LoRA (Low-Rank Adaptation) for sentiment analysis.
